@@ -1,0 +1,76 @@
+body {
+  background: #1e1e1e;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player {
+  background: #2c2c2c;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.music-info img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.music-info h2, .music-info h3 {
+  margin: 10px 0;
+}
+
+.controls button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 24px;
+  border: none;
+  background: #444;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background: #666;
+}
+
+#progress, #volume {
+  width: 100%;
+  margin-top: 15px;
+}
+
+#current-time, #duration {
+  font-size: 14px;
+}
+
+.playlist {
+  margin-top: 20px;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.playlist ul {
+  list-style: none;
+  padding: 0;
+}
+
+.playlist li {
+  background: #444;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.playlist li:hover {
+  background: #666;
+}
